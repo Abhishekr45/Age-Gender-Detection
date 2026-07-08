@@ -9,9 +9,7 @@ venv/
 env/
 
 # Model files and large downloads
-models/*.caffemodel
-models/*.pb
-models/*.pbtxt
+# Keep these tracked so Render can use the app without downloading them at runtime.
 
 # OS files
 .DS_Store
